@@ -7,11 +7,11 @@ Appearance
 ---
 # Object 1
 Ginebra Gin
-Cheap
-White
+Value: Cheap
+Appearance: White
 
 
 # Object 2 
 Jack Daniel's
-Expensive
-Brown
+Value: Expensive
+Appearance: Brown
