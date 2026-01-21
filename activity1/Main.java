@@ -1,5 +1,3 @@
-package week2;
-
 public class Main {
     public static void main(String[] args) {
         Book book1 = new Book("THE HUNGER GAMES" , "Suzanne Collins" , "978-0439023488" , "2008");
