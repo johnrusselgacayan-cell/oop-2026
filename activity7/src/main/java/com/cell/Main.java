@@ -8,9 +8,9 @@ public class Main {
         
         SmartLight livingRoomLight = new SmartLight("Living Room Light", false);
         livingRoomLight.setBrightnessLevel(80);
-        livingRoomLight.setOn(true);
+        livingRoomLight.togglePower();
         livingRoomLight.displayStatus();
-
+        System.out.println();
         SmartThermostat homeThermostat = new SmartThermostat("Thermostat", true, 0);
         homeThermostat.setTemperatureLevel(32);
         homeThermostat.displayStatus();

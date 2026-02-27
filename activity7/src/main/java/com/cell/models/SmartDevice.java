@@ -21,8 +21,12 @@ public class SmartDevice {
         this.isOn = isOn;
     }
 
+    public void togglePower() {
+        this.isOn = !this.isOn;
+    }
+
     public void displayStatus() {
-        String status = isOn ? "ON" : "OFF";
-        System.out.println(deviceName + " is currently " + status);
+        System.out.println(deviceName);
+        System.out.println(isOn ? "On" : "Off");
     }
 }
